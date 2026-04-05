@@ -1,0 +1,6 @@
+chargers,vehicles_per_day,installation_cost,fixed_cost
+Level1,3,500,5000
+Level2,6,3000,15000
+Fast50,32,20000,30000
+Fast150,48,60000,50000
+Ultra350,80,120000,80000
