@@ -1,106 +1,106 @@
 \ Model EV Charging Network - Realistic
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0xae042bebe7d858e9
+\ Signature: 0x4f1bc9cfcc3cad79
 Maximize
-  3 charger_assignments[site1,Level1] + 6 charger_assignments[site1,Level2]
-   + 32 charger_assignments[site1,Fast50]
-   + 48 charger_assignments[site1,Fast150]
-   + 80 charger_assignments[site1,Ultra350]
-   + 3 charger_assignments[site2,Level1]
-   + 6 charger_assignments[site2,Level2]
-   + 32 charger_assignments[site2,Fast50]
-   + 48 charger_assignments[site2,Fast150]
-   + 80 charger_assignments[site2,Ultra350]
-   + 3 charger_assignments[site3,Level1]
-   + 6 charger_assignments[site3,Level2]
-   + 32 charger_assignments[site3,Fast50]
-   + 48 charger_assignments[site3,Fast150]
-   + 80 charger_assignments[site3,Ultra350]
-   + 3 charger_assignments[site4,Level1]
-   + 6 charger_assignments[site4,Level2]
-   + 32 charger_assignments[site4,Fast50]
-   + 48 charger_assignments[site4,Fast150]
-   + 80 charger_assignments[site4,Ultra350]
-   + 3 charger_assignments[site5,Level1]
-   + 6 charger_assignments[site5,Level2]
-   + 32 charger_assignments[site5,Fast50]
-   + 48 charger_assignments[site5,Fast150]
-   + 80 charger_assignments[site5,Ultra350]
-   + 3 charger_assignments[site6,Level1]
-   + 6 charger_assignments[site6,Level2]
-   + 32 charger_assignments[site6,Fast50]
-   + 48 charger_assignments[site6,Fast150]
-   + 80 charger_assignments[site6,Ultra350]
-   + 3 charger_assignments[site7,Level1]
-   + 6 charger_assignments[site7,Level2]
-   + 32 charger_assignments[site7,Fast50]
-   + 48 charger_assignments[site7,Fast150]
-   + 80 charger_assignments[site7,Ultra350]
-   + 3 charger_assignments[site8,Level1]
-   + 6 charger_assignments[site8,Level2]
-   + 32 charger_assignments[site8,Fast50]
-   + 48 charger_assignments[site8,Fast150]
-   + 80 charger_assignments[site8,Ultra350]
-   + 3 charger_assignments[site9,Level1]
-   + 6 charger_assignments[site9,Level2]
-   + 32 charger_assignments[site9,Fast50]
-   + 48 charger_assignments[site9,Fast150]
-   + 80 charger_assignments[site9,Ultra350]
-   + 3 charger_assignments[site10,Level1]
-   + 6 charger_assignments[site10,Level2]
-   + 32 charger_assignments[site10,Fast50]
-   + 48 charger_assignments[site10,Fast150]
-   + 80 charger_assignments[site10,Ultra350]
-   + 3 charger_assignments[site11,Level1]
-   + 6 charger_assignments[site11,Level2]
-   + 32 charger_assignments[site11,Fast50]
-   + 48 charger_assignments[site11,Fast150]
-   + 80 charger_assignments[site11,Ultra350]
-   + 3 charger_assignments[site12,Level1]
-   + 6 charger_assignments[site12,Level2]
-   + 32 charger_assignments[site12,Fast50]
-   + 48 charger_assignments[site12,Fast150]
-   + 80 charger_assignments[site12,Ultra350]
-   + 3 charger_assignments[site13,Level1]
-   + 6 charger_assignments[site13,Level2]
-   + 32 charger_assignments[site13,Fast50]
-   + 48 charger_assignments[site13,Fast150]
-   + 80 charger_assignments[site13,Ultra350]
-   + 3 charger_assignments[site14,Level1]
-   + 6 charger_assignments[site14,Level2]
-   + 32 charger_assignments[site14,Fast50]
-   + 48 charger_assignments[site14,Fast150]
-   + 80 charger_assignments[site14,Ultra350]
-   + 3 charger_assignments[site15,Level1]
-   + 6 charger_assignments[site15,Level2]
-   + 32 charger_assignments[site15,Fast50]
-   + 48 charger_assignments[site15,Fast150]
-   + 80 charger_assignments[site15,Ultra350]
-   + 3 charger_assignments[site16,Level1]
-   + 6 charger_assignments[site16,Level2]
-   + 32 charger_assignments[site16,Fast50]
-   + 48 charger_assignments[site16,Fast150]
-   + 80 charger_assignments[site16,Ultra350]
-   + 3 charger_assignments[site17,Level1]
-   + 6 charger_assignments[site17,Level2]
-   + 32 charger_assignments[site17,Fast50]
-   + 48 charger_assignments[site17,Fast150]
-   + 80 charger_assignments[site17,Ultra350]
-   + 3 charger_assignments[site18,Level1]
-   + 6 charger_assignments[site18,Level2]
-   + 32 charger_assignments[site18,Fast50]
-   + 48 charger_assignments[site18,Fast150]
-   + 80 charger_assignments[site18,Ultra350]
-   + 3 charger_assignments[site19,Level1]
-   + 6 charger_assignments[site19,Level2]
-   + 32 charger_assignments[site19,Fast50]
-   + 48 charger_assignments[site19,Fast150]
-   + 80 charger_assignments[site19,Ultra350]
-   + 3 charger_assignments[site20,Level1]
-   + 6 charger_assignments[site20,Level2]
-   + 32 charger_assignments[site20,Fast50]
-   + 48 charger_assignments[site20,Fast150]
-   + 80 charger_assignments[site20,Ultra350]
+  4 charger_assignments[site1,Level1] + 10 charger_assignments[site1,Level2]
+   + 40 charger_assignments[site1,Fast50]
+   + 70 charger_assignments[site1,Fast150]
+   + 120 charger_assignments[site1,Ultra350]
+   + 4 charger_assignments[site2,Level1]
+   + 10 charger_assignments[site2,Level2]
+   + 40 charger_assignments[site2,Fast50]
+   + 70 charger_assignments[site2,Fast150]
+   + 120 charger_assignments[site2,Ultra350]
+   + 4 charger_assignments[site3,Level1]
+   + 10 charger_assignments[site3,Level2]
+   + 40 charger_assignments[site3,Fast50]
+   + 70 charger_assignments[site3,Fast150]
+   + 120 charger_assignments[site3,Ultra350]
+   + 4 charger_assignments[site4,Level1]
+   + 10 charger_assignments[site4,Level2]
+   + 40 charger_assignments[site4,Fast50]
+   + 70 charger_assignments[site4,Fast150]
+   + 120 charger_assignments[site4,Ultra350]
+   + 4 charger_assignments[site5,Level1]
+   + 10 charger_assignments[site5,Level2]
+   + 40 charger_assignments[site5,Fast50]
+   + 70 charger_assignments[site5,Fast150]
+   + 120 charger_assignments[site5,Ultra350]
+   + 4 charger_assignments[site6,Level1]
+   + 10 charger_assignments[site6,Level2]
+   + 40 charger_assignments[site6,Fast50]
+   + 70 charger_assignments[site6,Fast150]
+   + 120 charger_assignments[site6,Ultra350]
+   + 4 charger_assignments[site7,Level1]
+   + 10 charger_assignments[site7,Level2]
+   + 40 charger_assignments[site7,Fast50]
+   + 70 charger_assignments[site7,Fast150]
+   + 120 charger_assignments[site7,Ultra350]
+   + 4 charger_assignments[site8,Level1]
+   + 10 charger_assignments[site8,Level2]
+   + 40 charger_assignments[site8,Fast50]
+   + 70 charger_assignments[site8,Fast150]
+   + 120 charger_assignments[site8,Ultra350]
+   + 4 charger_assignments[site9,Level1]
+   + 10 charger_assignments[site9,Level2]
+   + 40 charger_assignments[site9,Fast50]
+   + 70 charger_assignments[site9,Fast150]
+   + 120 charger_assignments[site9,Ultra350]
+   + 4 charger_assignments[site10,Level1]
+   + 10 charger_assignments[site10,Level2]
+   + 40 charger_assignments[site10,Fast50]
+   + 70 charger_assignments[site10,Fast150]
+   + 120 charger_assignments[site10,Ultra350]
+   + 4 charger_assignments[site11,Level1]
+   + 10 charger_assignments[site11,Level2]
+   + 40 charger_assignments[site11,Fast50]
+   + 70 charger_assignments[site11,Fast150]
+   + 120 charger_assignments[site11,Ultra350]
+   + 4 charger_assignments[site12,Level1]
+   + 10 charger_assignments[site12,Level2]
+   + 40 charger_assignments[site12,Fast50]
+   + 70 charger_assignments[site12,Fast150]
+   + 120 charger_assignments[site12,Ultra350]
+   + 4 charger_assignments[site13,Level1]
+   + 10 charger_assignments[site13,Level2]
+   + 40 charger_assignments[site13,Fast50]
+   + 70 charger_assignments[site13,Fast150]
+   + 120 charger_assignments[site13,Ultra350]
+   + 4 charger_assignments[site14,Level1]
+   + 10 charger_assignments[site14,Level2]
+   + 40 charger_assignments[site14,Fast50]
+   + 70 charger_assignments[site14,Fast150]
+   + 120 charger_assignments[site14,Ultra350]
+   + 4 charger_assignments[site15,Level1]
+   + 10 charger_assignments[site15,Level2]
+   + 40 charger_assignments[site15,Fast50]
+   + 70 charger_assignments[site15,Fast150]
+   + 120 charger_assignments[site15,Ultra350]
+   + 4 charger_assignments[site16,Level1]
+   + 10 charger_assignments[site16,Level2]
+   + 40 charger_assignments[site16,Fast50]
+   + 70 charger_assignments[site16,Fast150]
+   + 120 charger_assignments[site16,Ultra350]
+   + 4 charger_assignments[site17,Level1]
+   + 10 charger_assignments[site17,Level2]
+   + 40 charger_assignments[site17,Fast50]
+   + 70 charger_assignments[site17,Fast150]
+   + 120 charger_assignments[site17,Ultra350]
+   + 4 charger_assignments[site18,Level1]
+   + 10 charger_assignments[site18,Level2]
+   + 40 charger_assignments[site18,Fast50]
+   + 70 charger_assignments[site18,Fast150]
+   + 120 charger_assignments[site18,Ultra350]
+   + 4 charger_assignments[site19,Level1]
+   + 10 charger_assignments[site19,Level2]
+   + 40 charger_assignments[site19,Fast50]
+   + 70 charger_assignments[site19,Fast150]
+   + 120 charger_assignments[site19,Ultra350]
+   + 4 charger_assignments[site20,Level1]
+   + 10 charger_assignments[site20,Level2]
+   + 40 charger_assignments[site20,Fast50]
+   + 70 charger_assignments[site20,Fast150]
+   + 120 charger_assignments[site20,Ultra350]
 Subject To
  global_resource_usage[budget]: 500 charger_assignments[site1,Level1]
    + 3000 charger_assignments[site1,Level2]
@@ -482,266 +482,106 @@ Subject To
    + 18 charger_assignments[site20,Fast50]
    + 20 charger_assignments[site20,Fast150]
    + 25 charger_assignments[site20,Ultra350] <= 770
- demand_satisfaction[site1]: 3 charger_assignments[site1,Level1]
-   + 6 charger_assignments[site1,Level2]
-   + 32 charger_assignments[site1,Fast50]
-   + 48 charger_assignments[site1,Fast150]
-   + 80 charger_assignments[site1,Ultra350] >= 10
- demand_satisfaction[site2]: 3 charger_assignments[site2,Level1]
-   + 6 charger_assignments[site2,Level2]
-   + 32 charger_assignments[site2,Fast50]
-   + 48 charger_assignments[site2,Fast150]
-   + 80 charger_assignments[site2,Ultra350] >= 85
- demand_satisfaction[site3]: 3 charger_assignments[site3,Level1]
-   + 6 charger_assignments[site3,Level2]
-   + 32 charger_assignments[site3,Fast50]
-   + 48 charger_assignments[site3,Fast150]
-   + 80 charger_assignments[site3,Ultra350] >= 30
- demand_satisfaction[site4]: 3 charger_assignments[site4,Level1]
-   + 6 charger_assignments[site4,Level2]
-   + 32 charger_assignments[site4,Fast50]
-   + 48 charger_assignments[site4,Fast150]
-   + 80 charger_assignments[site4,Ultra350] >= 70
- demand_satisfaction[site5]: 3 charger_assignments[site5,Level1]
-   + 6 charger_assignments[site5,Level2]
-   + 32 charger_assignments[site5,Fast50]
-   + 48 charger_assignments[site5,Fast150]
-   + 80 charger_assignments[site5,Ultra350] >= 5
- demand_satisfaction[site6]: 3 charger_assignments[site6,Level1]
-   + 6 charger_assignments[site6,Level2]
-   + 32 charger_assignments[site6,Fast50]
-   + 48 charger_assignments[site6,Fast150]
-   + 80 charger_assignments[site6,Ultra350] >= 60
- demand_satisfaction[site7]: 3 charger_assignments[site7,Level1]
-   + 6 charger_assignments[site7,Level2]
-   + 32 charger_assignments[site7,Fast50]
-   + 48 charger_assignments[site7,Fast150]
-   + 80 charger_assignments[site7,Ultra350] >= 50
- demand_satisfaction[site8]: 3 charger_assignments[site8,Level1]
-   + 6 charger_assignments[site8,Level2]
-   + 32 charger_assignments[site8,Fast50]
-   + 48 charger_assignments[site8,Fast150]
-   + 80 charger_assignments[site8,Ultra350] >= 40
- demand_satisfaction[site9]: 3 charger_assignments[site9,Level1]
-   + 6 charger_assignments[site9,Level2]
-   + 32 charger_assignments[site9,Fast50]
-   + 48 charger_assignments[site9,Fast150]
-   + 80 charger_assignments[site9,Ultra350] >= 95
- demand_satisfaction[site10]: 3 charger_assignments[site10,Level1]
-   + 6 charger_assignments[site10,Level2]
-   + 32 charger_assignments[site10,Fast50]
-   + 48 charger_assignments[site10,Fast150]
-   + 80 charger_assignments[site10,Ultra350] >= 15
- demand_satisfaction[site11]: 3 charger_assignments[site11,Level1]
-   + 6 charger_assignments[site11,Level2]
-   + 32 charger_assignments[site11,Fast50]
-   + 48 charger_assignments[site11,Fast150]
-   + 80 charger_assignments[site11,Ultra350] >= 35
- demand_satisfaction[site12]: 3 charger_assignments[site12,Level1]
-   + 6 charger_assignments[site12,Level2]
-   + 32 charger_assignments[site12,Fast50]
-   + 48 charger_assignments[site12,Fast150]
-   + 80 charger_assignments[site12,Ultra350] >= 80
- demand_satisfaction[site13]: 3 charger_assignments[site13,Level1]
-   + 6 charger_assignments[site13,Level2]
-   + 32 charger_assignments[site13,Fast50]
-   + 48 charger_assignments[site13,Fast150]
-   + 80 charger_assignments[site13,Ultra350] >= 20
- demand_satisfaction[site14]: 3 charger_assignments[site14,Level1]
-   + 6 charger_assignments[site14,Level2]
-   + 32 charger_assignments[site14,Fast50]
-   + 48 charger_assignments[site14,Fast150]
-   + 80 charger_assignments[site14,Ultra350] >= 65
- demand_satisfaction[site15]: 3 charger_assignments[site15,Level1]
-   + 6 charger_assignments[site15,Level2]
-   + 32 charger_assignments[site15,Fast50]
-   + 48 charger_assignments[site15,Fast150]
-   + 80 charger_assignments[site15,Ultra350] >= 55
- demand_satisfaction[site16]: 3 charger_assignments[site16,Level1]
-   + 6 charger_assignments[site16,Level2]
-   + 32 charger_assignments[site16,Fast50]
-   + 48 charger_assignments[site16,Fast150]
-   + 80 charger_assignments[site16,Ultra350] >= 10
- demand_satisfaction[site17]: 3 charger_assignments[site17,Level1]
-   + 6 charger_assignments[site17,Level2]
-   + 32 charger_assignments[site17,Fast50]
-   + 48 charger_assignments[site17,Fast150]
-   + 80 charger_assignments[site17,Ultra350] >= 0
- demand_satisfaction[site18]: 3 charger_assignments[site18,Level1]
-   + 6 charger_assignments[site18,Level2]
-   + 32 charger_assignments[site18,Fast50]
-   + 48 charger_assignments[site18,Fast150]
-   + 80 charger_assignments[site18,Ultra350] >= 45
- demand_satisfaction[site19]: 3 charger_assignments[site19,Level1]
-   + 6 charger_assignments[site19,Level2]
-   + 32 charger_assignments[site19,Fast50]
-   + 48 charger_assignments[site19,Fast150]
-   + 80 charger_assignments[site19,Ultra350] >= 90
- demand_satisfaction[site20]: 3 charger_assignments[site20,Level1]
-   + 6 charger_assignments[site20,Level2]
-   + 32 charger_assignments[site20,Fast50]
-   + 48 charger_assignments[site20,Fast150]
-   + 80 charger_assignments[site20,Ultra350] >= 50
- max_level2[site1,Level1]: charger_assignments[site1,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site1,Fast50]: charger_assignments[site1,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site1,Fast150]: charger_assignments[site1,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site1,Ultra350]: charger_assignments[site1,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site2,Level1]: charger_assignments[site2,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site2,Fast50]: charger_assignments[site2,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site2,Fast150]: charger_assignments[site2,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site2,Ultra350]: charger_assignments[site2,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site3,Level1]: charger_assignments[site3,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site3,Fast50]: charger_assignments[site3,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site3,Fast150]: charger_assignments[site3,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site3,Ultra350]: charger_assignments[site3,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site4,Level1]: charger_assignments[site4,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site4,Fast50]: charger_assignments[site4,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site4,Fast150]: charger_assignments[site4,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site4,Ultra350]: charger_assignments[site4,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site5,Level1]: charger_assignments[site5,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site5,Fast50]: charger_assignments[site5,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site5,Fast150]: charger_assignments[site5,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site5,Ultra350]: charger_assignments[site5,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site6,Level1]: charger_assignments[site6,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site6,Fast50]: charger_assignments[site6,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site6,Fast150]: charger_assignments[site6,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site6,Ultra350]: charger_assignments[site6,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site7,Level1]: charger_assignments[site7,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site7,Fast50]: charger_assignments[site7,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site7,Fast150]: charger_assignments[site7,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site7,Ultra350]: charger_assignments[site7,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site8,Level1]: charger_assignments[site8,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site8,Fast50]: charger_assignments[site8,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site8,Fast150]: charger_assignments[site8,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site8,Ultra350]: charger_assignments[site8,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site9,Level1]: charger_assignments[site9,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site9,Fast50]: charger_assignments[site9,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site9,Fast150]: charger_assignments[site9,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site9,Ultra350]: charger_assignments[site9,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site10,Level1]: charger_assignments[site10,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site10,Fast50]: charger_assignments[site10,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site10,Fast150]: charger_assignments[site10,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site10,Ultra350]: charger_assignments[site10,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site11,Level1]: charger_assignments[site11,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site11,Fast50]: charger_assignments[site11,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site11,Fast150]: charger_assignments[site11,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site11,Ultra350]: charger_assignments[site11,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site12,Level1]: charger_assignments[site12,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site12,Fast50]: charger_assignments[site12,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site12,Fast150]: charger_assignments[site12,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site12,Ultra350]: charger_assignments[site12,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site13,Level1]: charger_assignments[site13,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site13,Fast50]: charger_assignments[site13,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site13,Fast150]: charger_assignments[site13,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site13,Ultra350]: charger_assignments[site13,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site14,Level1]: charger_assignments[site14,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site14,Fast50]: charger_assignments[site14,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site14,Fast150]: charger_assignments[site14,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site14,Ultra350]: charger_assignments[site14,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site15,Level1]: charger_assignments[site15,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site15,Fast50]: charger_assignments[site15,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site15,Fast150]: charger_assignments[site15,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site15,Ultra350]: charger_assignments[site15,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site16,Level1]: charger_assignments[site16,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site16,Fast50]: charger_assignments[site16,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site16,Fast150]: charger_assignments[site16,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site16,Ultra350]: charger_assignments[site16,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site17,Level1]: charger_assignments[site17,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site17,Fast50]: charger_assignments[site17,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site17,Fast150]: charger_assignments[site17,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site17,Ultra350]: charger_assignments[site17,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site18,Level1]: charger_assignments[site18,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site18,Fast50]: charger_assignments[site18,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site18,Fast150]: charger_assignments[site18,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site18,Ultra350]: charger_assignments[site18,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site19,Level1]: charger_assignments[site19,Level2]
-   - charger_assignments[site20,Level1] >= 0
- max_level2[site19,Fast50]: charger_assignments[site19,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site19,Fast150]: charger_assignments[site19,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site19,Ultra350]: charger_assignments[site19,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
- max_level2[site20,Level1]: - charger_assignments[site20,Level1]
-   + charger_assignments[site20,Level2] >= 0
- max_level2[site20,Fast50]: charger_assignments[site20,Level2]
-   - charger_assignments[site20,Fast50] >= 0
- max_level2[site20,Fast150]: charger_assignments[site20,Level2]
-   - charger_assignments[site20,Fast150] >= 0
- max_level2[site20,Ultra350]: charger_assignments[site20,Level2]
-   - charger_assignments[site20,Ultra350] >= 0
+ demand_satisfaction[site1]: 4 charger_assignments[site1,Level1]
+   + 10 charger_assignments[site1,Level2]
+   + 40 charger_assignments[site1,Fast50]
+   + 70 charger_assignments[site1,Fast150]
+   + 120 charger_assignments[site1,Ultra350] >= 10
+ demand_satisfaction[site2]: 4 charger_assignments[site2,Level1]
+   + 10 charger_assignments[site2,Level2]
+   + 40 charger_assignments[site2,Fast50]
+   + 70 charger_assignments[site2,Fast150]
+   + 120 charger_assignments[site2,Ultra350] >= 85
+ demand_satisfaction[site3]: 4 charger_assignments[site3,Level1]
+   + 10 charger_assignments[site3,Level2]
+   + 40 charger_assignments[site3,Fast50]
+   + 70 charger_assignments[site3,Fast150]
+   + 120 charger_assignments[site3,Ultra350] >= 30
+ demand_satisfaction[site4]: 4 charger_assignments[site4,Level1]
+   + 10 charger_assignments[site4,Level2]
+   + 40 charger_assignments[site4,Fast50]
+   + 70 charger_assignments[site4,Fast150]
+   + 120 charger_assignments[site4,Ultra350] >= 70
+ demand_satisfaction[site5]: 4 charger_assignments[site5,Level1]
+   + 10 charger_assignments[site5,Level2]
+   + 40 charger_assignments[site5,Fast50]
+   + 70 charger_assignments[site5,Fast150]
+   + 120 charger_assignments[site5,Ultra350] >= 5
+ demand_satisfaction[site6]: 4 charger_assignments[site6,Level1]
+   + 10 charger_assignments[site6,Level2]
+   + 40 charger_assignments[site6,Fast50]
+   + 70 charger_assignments[site6,Fast150]
+   + 120 charger_assignments[site6,Ultra350] >= 60
+ demand_satisfaction[site7]: 4 charger_assignments[site7,Level1]
+   + 10 charger_assignments[site7,Level2]
+   + 40 charger_assignments[site7,Fast50]
+   + 70 charger_assignments[site7,Fast150]
+   + 120 charger_assignments[site7,Ultra350] >= 50
+ demand_satisfaction[site8]: 4 charger_assignments[site8,Level1]
+   + 10 charger_assignments[site8,Level2]
+   + 40 charger_assignments[site8,Fast50]
+   + 70 charger_assignments[site8,Fast150]
+   + 120 charger_assignments[site8,Ultra350] >= 40
+ demand_satisfaction[site9]: 4 charger_assignments[site9,Level1]
+   + 10 charger_assignments[site9,Level2]
+   + 40 charger_assignments[site9,Fast50]
+   + 70 charger_assignments[site9,Fast150]
+   + 120 charger_assignments[site9,Ultra350] >= 95
+ demand_satisfaction[site10]: 4 charger_assignments[site10,Level1]
+   + 10 charger_assignments[site10,Level2]
+   + 40 charger_assignments[site10,Fast50]
+   + 70 charger_assignments[site10,Fast150]
+   + 120 charger_assignments[site10,Ultra350] >= 15
+ demand_satisfaction[site11]: 4 charger_assignments[site11,Level1]
+   + 10 charger_assignments[site11,Level2]
+   + 40 charger_assignments[site11,Fast50]
+   + 70 charger_assignments[site11,Fast150]
+   + 120 charger_assignments[site11,Ultra350] >= 35
+ demand_satisfaction[site12]: 4 charger_assignments[site12,Level1]
+   + 10 charger_assignments[site12,Level2]
+   + 40 charger_assignments[site12,Fast50]
+   + 70 charger_assignments[site12,Fast150]
+   + 120 charger_assignments[site12,Ultra350] >= 80
+ demand_satisfaction[site13]: 4 charger_assignments[site13,Level1]
+   + 10 charger_assignments[site13,Level2]
+   + 40 charger_assignments[site13,Fast50]
+   + 70 charger_assignments[site13,Fast150]
+   + 120 charger_assignments[site13,Ultra350] >= 20
+ demand_satisfaction[site14]: 4 charger_assignments[site14,Level1]
+   + 10 charger_assignments[site14,Level2]
+   + 40 charger_assignments[site14,Fast50]
+   + 70 charger_assignments[site14,Fast150]
+   + 120 charger_assignments[site14,Ultra350] >= 65
+ demand_satisfaction[site15]: 4 charger_assignments[site15,Level1]
+   + 10 charger_assignments[site15,Level2]
+   + 40 charger_assignments[site15,Fast50]
+   + 70 charger_assignments[site15,Fast150]
+   + 120 charger_assignments[site15,Ultra350] >= 55
+ demand_satisfaction[site16]: 4 charger_assignments[site16,Level1]
+   + 10 charger_assignments[site16,Level2]
+   + 40 charger_assignments[site16,Fast50]
+   + 70 charger_assignments[site16,Fast150]
+   + 120 charger_assignments[site16,Ultra350] >= 10
+ demand_satisfaction[site17]: 4 charger_assignments[site17,Level1]
+   + 10 charger_assignments[site17,Level2]
+   + 40 charger_assignments[site17,Fast50]
+   + 70 charger_assignments[site17,Fast150]
+   + 120 charger_assignments[site17,Ultra350] >= 0
+ demand_satisfaction[site18]: 4 charger_assignments[site18,Level1]
+   + 10 charger_assignments[site18,Level2]
+   + 40 charger_assignments[site18,Fast50]
+   + 70 charger_assignments[site18,Fast150]
+   + 120 charger_assignments[site18,Ultra350] >= 45
+ demand_satisfaction[site19]: 4 charger_assignments[site19,Level1]
+   + 10 charger_assignments[site19,Level2]
+   + 40 charger_assignments[site19,Fast50]
+   + 70 charger_assignments[site19,Fast150]
+   + 120 charger_assignments[site19,Ultra350] >= 90
+ demand_satisfaction[site20]: 4 charger_assignments[site20,Level1]
+   + 10 charger_assignments[site20,Level2]
+   + 40 charger_assignments[site20,Fast50]
+   + 70 charger_assignments[site20,Fast150]
+   + 120 charger_assignments[site20,Ultra350] >= 50
 Bounds
 Generals
  charger_assignments[site1,Level1] charger_assignments[site1,Level2]
